@@ -10,26 +10,22 @@ body {
 	background-color: #00c0ff;
 	border: 2px;
 	border-style: solid;
-	border-color: #aaccff;
+	border-color: #404080;
 	border-radius: 10px;
 }
 
-.bar table th span{
+.bar table {
+	margin-left: 22%;
+}
+
+.bar table th span {
 	background-color: #00a0ff;
 	padding: 9px;
 	border: 1px;
 	border-style: outset;
-	border-color: #aaccff;
-	border-radius: 6px;
-}
-
-
-span {
+	border-color: #dddddd;
+	border-radius: 3px;
 	margin: 20px;
-	width: 30px;
-	padding: 10px;
-	box-sizing: border-box;
-	background-color: lightgray;
 }
 
 a:link {
