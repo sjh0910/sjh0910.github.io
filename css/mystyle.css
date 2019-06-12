@@ -26,10 +26,10 @@ body {
 
 .bar table th span {
 	background-color: #00a0ff;
-	padding: 9px;
-	border: 1px;
+	padding: 6px;
+	border: 2px;
 	border-style: outset;
-	border-color: #dddddd;
+	border-color: #99bbee;
 	border-radius: 3px;
 	margin-right: 40px;
 }
