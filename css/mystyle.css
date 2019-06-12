@@ -3,15 +3,21 @@ body {
 	height: 5000px;
 }
 
+.top div {
+	margin-left: 22%;
+}
+
 .bar {
 	position: sticky;
 	top: 30px;
 	padding: 5px;
 	background-color: #00c0ff;
-	border: 2px;
+	border-top: 20px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
 	border-style: solid;
 	border-color: #404080;
-	border-radius: 10px;
 }
 
 .bar table {
@@ -25,7 +31,7 @@ body {
 	border-style: outset;
 	border-color: #dddddd;
 	border-radius: 3px;
-	margin: 20px;
+	margin-right: 40px;
 }
 
 a:link {
