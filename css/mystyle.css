@@ -1,0 +1,46 @@
+body {
+	background-color: #eeeeff;
+	height: 5000px;
+}
+
+.bar {
+	position: sticky;
+	top: 30px;
+	padding: 5px;
+	background-color: #00c0ff;
+	border: 2px;
+	border-style: solid;
+	border-color: #aaccff;
+	border-radius: 10px;
+}
+
+.bar table th span{
+	background-color: #00a0ff;
+	padding: 9px;
+	border: 1px;
+	border-style: outset;
+	border-color: #aaccff;
+	border-radius: 6px;
+}
+
+
+span {
+	margin: 20px;
+	width: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: lightgray;
+}
+
+a:link {
+	color: #404040;
+}
+a:visited {
+	color: #404040;
+}
+a:hover {
+	color: #707070;
+}
+a:active {
+	color: #606060;
+}
