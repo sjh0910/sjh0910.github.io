@@ -2,6 +2,46 @@ body {
 	background-color: #eeeeff;
 	height: 5000px;
 	margin-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	background-image:  url(../image/background.png);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+h1 {
+	text-shadow: 2px 1px orangered;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(220, 240, 255, 1);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 9px;
+  border-style: outset;
+  border-color: rgba(170, 221, 255, 0.75);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: rgba(100, 131, 185, 0.75);
+  border-style: inset;
+  border-color: rgba(170, 221, 255, 0.75);
 }
 
 .leftmargin {
@@ -10,9 +50,8 @@ body {
 
 .bar {
 	position: sticky;
-	top: 30px;
-	padding: 5px;
-	background-color: rgba(0, 196, 256, 0.3);
+	top: 15px;
+	background-color: rgba(0, 196, 256, 0.75);
 	border-top: 15px;
 	border-left: 0px;
 	border-right: 0px;
@@ -29,17 +68,4 @@ body {
 	border-color: #99bbee;
 	border-radius: 3px;
 	margin-right: 40px;
-}
-
-a:link {
-	color: #404040;
-}
-a:visited {
-	color: #404040;
-}
-a:hover {
-	color: #707070;
-}
-a:active {
-	color: #606060;
 }
