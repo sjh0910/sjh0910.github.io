@@ -1,9 +1,10 @@
 body {
 	background-color: #eeeeff;
 	height: 5000px;
+	margin-top: 100px;
 }
 
-.top div {
+.leftmargin {
 	margin-left: 22%;
 }
 
@@ -11,17 +12,13 @@ body {
 	position: sticky;
 	top: 30px;
 	padding: 5px;
-	background-color: #00c0ff;
-	border-top: 20px;
+	background-color: rgba(0, 196, 256, 0.3);
+	border-top: 15px;
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 0px;
 	border-style: solid;
-	border-color: #404080;
-}
-
-.bar table {
-	margin-left: 22%;
+	border-color: rgba(64, 64, 128, 0.5);
 }
 
 .bar table th span {
