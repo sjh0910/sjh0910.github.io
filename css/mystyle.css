@@ -2,27 +2,9 @@ body {
 	background: #eeeeff;
 	height: 2500px;
 	margin: 100px 0 0 0;
-}
-
-.column.sidel {
-	float: left;
-	width: 22%;
-	height: 2500px;
-	background: url(../image/background.png) repeat-y left;
-}
-
-.column.main {
-	float: left;
-	width: auto;
-	height: 2500px;
-}
-
-.column.sider {
-	float: right;
-	width: 22%;
-	height: 2500px;
-	background: url(../image/background.png) repeat-y right;
-	
+	background-image: url(../image/background.png), url(../image/background.png);
+	background-position: left, right;
+	background-repeat: repeat-y, repeat-y;
 }
 
 .pagetitle {
