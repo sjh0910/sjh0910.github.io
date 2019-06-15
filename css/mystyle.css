@@ -40,13 +40,14 @@ li a:hover {
 	border: 9px inset rgba(170, 221, 255, 0.85);
 }
 
-.leftmargin {
+.sidemargin {
 	margin-left: 22%;
+	margin-right: 22%;
 }
 
 .bar {
 	position: sticky;
-	top: 20px;
+	top: 15px;
 	background: rgba(0, 196, 256, 0.75);
 	border: 0;
 	border-top: 15px solid rgba(64, 64, 128, 0.5);
