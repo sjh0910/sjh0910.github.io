@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
-	<title>SJH0910's Tetris</title>
+	<title id="top">SJH0910's Tetris</title>
 </head>
 <body>
 	<div class="sidemargin pagetitle">
@@ -14,10 +14,10 @@
 			<li class="dropdown">
 				<a href="./index.html" class="i">Home</a>
 				<div class="dropdown-content">
-					<a href="" class="j"></a>
+					<a href="#top" class="j"></a>
 					<ul>
-						<li><a href="./html/home/News.html" class="j">News</a></li>
-						<li><a href="./html/home/SiteMap.html" class="j">Site Map</a></li>
+						<li><a href="#News" class="j">News</a></li>
+						<li><a href="#SiteMap" class="j">Site Map</a></li>
 						<li><a href="./index.html" class="j">Don't Click</a></li>
 					</ul>
 				</div>
@@ -61,10 +61,12 @@
 	</div>
 
 	<div class="sidemargin">
-		<h2>News</h2>
+		<h2 id="News">News</h2>
+		<div style="height: 100px"></div>
 		<div style="border: solid 2px blue;">
 		</div>
-		<h2>Site Map</h2>
+		<h2 id="SiteMap">Site Map</h2>
+		<div style="height: 100px"></div>
 		<div style="border: solid 2px blue;">
 		</div>
 	</div>
